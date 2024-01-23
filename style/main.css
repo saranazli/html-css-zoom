@@ -7,7 +7,7 @@
 /* generali */
 
 header{
-  height: 30px;
+  height: 50px;
   background-color: black;
 }
 
@@ -26,17 +26,36 @@ main{
   padding: 25px 60px;
 }
 
+/*header */
+
+.head-dfn{
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.speaker, .maximize{
+  color: white;
+  padding: 5px 10px;
+  background-color: rgba(91,98,104,255);
+  margin-left: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
 /* image */
 
 .img-conteiner{
   position: relative;
-  padding: 5px;
-  height: 300px;
-  width: 300px;
+  height: 130px;
+  width: 230px;
+  margin: 10px;
 }
 
 img{
   width: 100%;
+  height: 100%;
 }
 
 .microphone{
@@ -44,8 +63,8 @@ img{
   bottom: 0;
   left: 0;
   color:white;
-  background-color: rgba(91,98,104,255);
-  padding: 15px 25px;
+  background-color: rgba(91,98,104,0.6);
+  padding: 5px 10px;
 }
 
 /*footer*/
