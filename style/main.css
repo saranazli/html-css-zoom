@@ -29,6 +29,7 @@ main{
 /* image */
 
 .img-conteiner{
+  position: relative;
   padding: 5px;
   height: 300px;
   width: 300px;
@@ -36,11 +37,12 @@ main{
 
 img{
   width: 100%;
-  top: 0;
-  left:0;
 }
 
 .microphone{
+  position: absolute;
+  bottom: 0;
+  left: 0;
   color:white;
   background-color: rgba(91,98,104,255);
   padding: 15px 25px;
