@@ -13,7 +13,7 @@ header{
 
 main{
   position: relative;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 150px);
   background-color: black;
   overflow: auto;
 }
@@ -29,6 +29,7 @@ main{
 /*header */
 
 .head-dfn{
+  width: 99%;
   height: 100%;
   display: flex;
   justify-content: flex-end;
@@ -70,8 +71,20 @@ img{
 /*footer*/
 
 footer{
-  height: 100px;
+  height: 150px;
   background-color: rgba(34,34,34,255);
+}
+
+.mic-video{
+  color: white;
+  width: 80px;
+  height: 100px;
+}
+
+.micro{
+  display: flex;
+  flex-direction: column;
+  color: white;
 }
 
 
