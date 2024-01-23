@@ -4,3 +4,43 @@
   box-sizing: border-box;
 }
 
+header{
+  height: 30px;
+  background-color: black;
+}
+
+main{
+  position: relative;
+  height: calc(100vh - 100px);
+  background-color: black;
+  overflow: auto;
+}
+
+.conteiner{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 60px;
+}
+
+.img-conteiner{
+  padding: 5px;
+  height: 200px;
+  width: 200px;
+}
+
+img{
+  width: 100%;
+  top: 0;
+  left:0;
+}
+
+footer{
+  height: 100px;
+  background-color: rgba(34,34,34,255);
+}
+
+
+
+
