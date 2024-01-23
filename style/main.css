@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+/* generali */
+
 header{
   height: 30px;
   background-color: black;
@@ -24,10 +26,12 @@ main{
   padding: 25px 60px;
 }
 
+/* image */
+
 .img-conteiner{
   padding: 5px;
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
 }
 
 img{
@@ -35,6 +39,14 @@ img{
   top: 0;
   left:0;
 }
+
+.microphone{
+  color:white;
+  background-color: rgba(91,98,104,255);
+  padding: 15px 25px;
+}
+
+/*footer*/
 
 footer{
   height: 100px;
