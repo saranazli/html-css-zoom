@@ -73,20 +73,33 @@ img{
 footer{
   height: 150px;
   background-color: rgba(34,34,34,255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
 }
+
+/*mic logo video */
 
 .mic-video{
-  color: white;
-  width: 80px;
-  height: 100px;
+  height: 100%;
 }
 
-.micro{
+.icon{
   display: flex;
   flex-direction: column;
-  color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
 }
 
+.icon i{
+  font-size: 1.7rem;
+}
+
+.icon.arrow{
+  font-size: 1rem;
+}
 
 
 
