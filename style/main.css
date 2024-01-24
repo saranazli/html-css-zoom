@@ -103,9 +103,23 @@ i.fa-angle-up{
   padding: 20px 0;
 }
 
-/*center footer */
+.icon:hover i{
+  color: green;
+}
 
+.inner-footer.center{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
 
-
+.inner-footer button{
+  height: 100%;
+  padding: 20px;
+  background-color: rgba(91,98,104,0.6);
+  color: red;
+  border: none;
+}
 
 
