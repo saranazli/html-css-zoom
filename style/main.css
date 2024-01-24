@@ -71,7 +71,7 @@ img{
 /*footer*/
 
 footer{
-  height: 150px;
+  height: 100px;
   background-color: rgba(34,34,34,255);
   display: flex;
   justify-content: space-between;
@@ -81,7 +81,8 @@ footer{
 
 /*mic logo video */
 
-.mic-video{
+.inner-footer{
+  display: flex;
   height: 100%;
 }
 
@@ -90,16 +91,21 @@ footer{
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 10px;
+  padding: 20px 10px;
 }
 
 .icon i{
   font-size: 1.7rem;
 }
 
-.icon.arrow{
-  font-size: 1rem;
+i.fa-angle-up{
+  font-size: 15px;
+  padding: 20px 0;
 }
+
+/*center footer */
+
+
 
 
 
